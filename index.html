@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Fee Payment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img src="college-logo.png" alt="College Logo" class="logo">
+        <h2>Student Identification</h2>
+	<label>University Registration Number *</label>
+        <input type="text" id="regNo" placeholder="Enter Registration Number" />
+        <button onclick="fetchDetails()">Get Details</button>
+        <div id="studentDetails" style="display:none;">
+            <p><strong>Name:</strong> <span id="name"></span></p>
+            <p><strong>Father's Name:</strong> <span id="father"></span></p>
+            <p><strong>Mother's Name:</strong> <span id="mother"></span></p>
+	    <p><strong>Sem/Year:</strong> <span id="Sem"></span></p>
+            <p><strong>Course:</strong> <span id="course"></span></p>
+            <p><strong>Fees:</strong> ₹<span id="fees"></span></p>
+            <a href="https://razorpay.me/@allindiajatmemorialcollegeroh?amount=WUf83UDoGF3frGXN66ZbNQ%3D%3D" class="pay-button">Make Payment</a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
