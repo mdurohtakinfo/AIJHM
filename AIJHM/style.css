@@ -18,6 +18,13 @@ body {
     margin: 0 auto 20px;
     width: 100%;
 }
+
+.h2 {
+    text-align: center;
+    margin: 0 auto 20px;
+    font-size: 3vw;
+}
+
 input[type="text"] {
     width: calc(100% - 20px);
     padding: 10px;
